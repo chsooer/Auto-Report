@@ -367,4 +367,16 @@ return {
 		"Dating",
 		"being inaproppiate"
 	},
+	suicide = {
+		"Bullying",
+		"saying bad things about other people, bullying them"
+	},
+	location = {
+		"Bullying",
+		"saying bad things about other people, bullying them"
+	},
+	lua = {
+		"Scamming",
+		"he's advertising hacks (viruses)"
+	},
 };
