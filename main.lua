@@ -17,7 +17,7 @@ repeat task.wait() until game:IsLoaded()
 local Default = {
 	Advertise = true;
 	Safe = false;
-	Webhook = ""; -- Webhook URL
+	Webhook = "";
 	
 	Words = {
 	    Blacklist = "https://raw.githubusercontent.com/chsooer/autoreport/main/words/blacklisted.lua";
@@ -51,7 +51,7 @@ local messages = {
 	whitelisted = {},
 };
 
-pcall(function() -- Sometimes http get fails, or the link maybe invalid or missing.
+pcall(function()
 	messages = {
 		blacklisted = loadstring(game:HttpGet(autoreport.Words.Blacklist))(),
 		whitelisted = loadstring(game:HttpGet(autoreport.Words.Whitelist))()
@@ -153,7 +153,7 @@ local success, error_message = pcall(function()
 		for i, v in next, messages.blacklisted do
 			if string.match(msg, i) then
 				thing, reason, offensive = v[1], v[2], i;
-				if autoreport.Advertise == true then (game:GetService("ReplicatedStorage")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(" ", "All"); end;
+				if autoreport.Advertise == true then (game:GetService("ReplicatedStorage")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer("fera", "All"); end;
 			end;
 		end;
 		if thing and reason and offensive then
