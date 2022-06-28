@@ -324,4 +324,24 @@ return {
 		"Bullying",
 		"this is really mean! i've had a really bad year, my dog passed out and i just can't take it anymore!"
 	},
+	loser = {
+		"Bullying",
+		"this is really mean! i've had a really bad year, my dog passed out and i just can't take it anymore!"
+	},
+	fatherless = {
+		"Bullying",
+		"this is really mean! i've had a really bad year, my dog passed out and i just can't take it anymore!"
+	},
+	motherless = {
+		"Bullying",
+		"this is really mean! i've had a really bad year, my dog passed out and i just can't take it anymore!"
+	},
+	parentless = {
+		"Bullying",
+		"this is really mean! i've had a really bad year, my dog passed out and i just can't take it anymore!"
+	},
+	moment = {
+		"Bullying",
+		"this is really mean! i've had a really bad year, my dog passed out and i just can't take it anymore!"
+	},
 };
