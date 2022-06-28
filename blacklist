@@ -1,3 +1,4 @@
+
 return {
 	hack = {
 		"Scamming",
@@ -302,5 +303,25 @@ return {
 	wearetheniggas! = {
 		"Bullying",
 		"saying bad things about other people, bullying them"
+	},
+	fe = {
+		"Scamming",
+		"he's advertising hacks (viruses)"
+	},
+	["filtering enabled"] = {
+		"Scamming",
+		"he's advertising hacks (viruses)"
+	},
+	shotgun = {
+		"Bullying",
+		"this is really mean! i've had a really bad year, my dog passed out and i just can't take it anymore!"
+	},
+	gun = {
+		"Bullying",
+		"this is really mean! i've had a really bad year, my dog passed out and i just can't take it anymore!"
+	},
+	idiot = {
+		"Bullying",
+		"this is really mean! i've had a really bad year, my dog passed out and i just can't take it anymore!"
 	},
 };
