@@ -20,8 +20,8 @@ local Default = {
 	Webhook = "";
 	
 	Words = {
-	    Blacklist = "https://raw.githubusercontent.com/chsooer/autoreport/main/words/blacklisted.lua";
-	    Whitelist = "https://raw.githubusercontent.com/chsooer/autoreport/main/words/whitelisted.lua";
+	    Blacklist = "https://raw.githubusercontent.com/chsooer/Auto-Report/main/words/blacklisted.lua";
+	    Whitelist = "https://raw.githubusercontent.com/chsooer/Auto-Report/main/words/whitelisted.lua";
 	};
 	
 	wasExecuted = true;
@@ -153,7 +153,7 @@ local success, error_message = pcall(function()
 		for i, v in next, messages.blacklisted do
 			if string.match(msg, i) then
 				thing, reason, offensive = v[1], v[2], i;
-				if autoreport.Advertise == true then (game:GetService("ReplicatedStorage")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer("fera", "All"); end;
+				if autoreport.Advertise == true then (game:GetService("ReplicatedStorage")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(" ", "All"); end;
 			end;
 		end;
 		if thing and reason and offensive then
