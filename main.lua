@@ -53,8 +53,8 @@ local messages = {
 
 pcall(function()
 	messages = {
-		blacklisted = loadstring(game:HttpGet(autoreport.Words.Blacklist))(),
-		whitelisted = loadstring(game:HttpGet(autoreport.Words.Whitelist))()
+		blacklisted = {},
+		whitelisted = {},
 	};
 end);
 
