@@ -344,4 +344,8 @@ return {
 		"Bullying",
 		"this is really mean! i've had a really bad year, my dog passed out and i just can't take it anymore!"
 	},
+	worse = {
+		"Bullying",
+		"this is really mean! i've had a really bad year, my dog passed out and i just can't take it anymore!"
+	},
 };
