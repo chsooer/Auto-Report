@@ -20,8 +20,8 @@ local Default = {
 	Webhook = ""; -- Webhook URL
 	
 	Words = {
-	    Blacklist = "https://raw.githubusercontent.com/chsooer/autoreport/main/blacklist";
-	    Whitelist = "https://raw.githubusercontent.com/chsooer/autoreport/main/whitelist";
+	    Blacklist = "https://raw.githubusercontent.com/chsooer/autoreport/main/words/blacklisted.lua";
+	    Whitelist = "https://raw.githubusercontent.com/chsooer/autoreport/main/words/whitelisted.lua";
 	};
 	
 	wasExecuted = true;
